@@ -18,4 +18,3 @@ deprecated classes and methods. The update manual is divided into several chapte
 
     files
     *
-    features/index

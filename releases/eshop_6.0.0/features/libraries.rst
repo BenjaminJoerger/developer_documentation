@@ -62,7 +62,7 @@ In this case you have to run the following steps:
 
   #. Activate the module `WYSIWYG Editor + Mediathek` in your OXID eShop 6.
      (:menuselection:`Extensions --> Modules --> WYSIWYG Editor + Mediathek --> Activate`).
-  #. The PHP script :download:`index_files_for_mediagallery <../resources/wysiwygpro/index_files_for_mediagallery>`
+  #. The PHP script :download:`index_files_for_mediagallery <resources/wysiwygpro/index_files_for_mediagallery>`
      read all files inside the directory :file:`out/pictures/ddmedia` and creates an index in the database. Download it.
   #. Copy the script to the folder :file:`out/pictures/ddmedia`.
   #. Make the script executable.
@@ -77,7 +77,7 @@ In this case you have to run the following steps:
 
 3. Update existing contents in the database to use the new directory:
 
-  #. Download the PHP script :download:`migrate_existing_wysiwygpro_contents <../resources/wysiwygpro/migrate_existing_wysiwygpro_contents>`
+  #. Download the PHP script :download:`migrate_existing_wysiwygpro_contents <resources/wysiwygpro/migrate_existing_wysiwygpro_contents>`
      The goal of this script is to replace all occurences of the directory :file:`out/pictures/wysiwygpro` with
      :file:`out/pictures/ddmedia` in all possible database tables.
   #. Open this file and configure the database connection to your OXID eShop 4.10 / 5.3 database at the top.

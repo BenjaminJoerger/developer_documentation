@@ -19,7 +19,7 @@ Table of Contents
    oxid_components/index
    modules/index
    themes/index
-   update/index
+   releases/index
 
 
 .. toctree::
