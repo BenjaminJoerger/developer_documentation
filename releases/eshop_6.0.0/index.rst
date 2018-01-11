@@ -1,9 +1,6 @@
 OXID eShop 6.0.0
 ================
 
-Important information about changes in version
-==============================================
-
 Main reasons to release version
 -------------------------------
 
